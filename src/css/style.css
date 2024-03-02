@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+   
+   background-color:rgba(250,190,152,0.6);
+}
+
+
+.bg-img{
+    background-color: #FFBE98;
+    /* background-image: url(../img/salao1.webp); */
+    background: linear-gradient( rgba(10, 10, 10, 0.3),rgba(250,190,152,0.6)) ,url("../img/salao1.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    font-family: "Lobster";
+    color: white;
+    height: 9vh;
+}
+
+header h1{
+    font-size: 2.0rem;
+}
+
+.menu-itens ul{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.menu-itens ul li a{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 91vh;
+}
+.main-text{
+    max-width: 900px;
+    color:black ;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main-text h1{
+    font-size: 2.0rem;
+    margin-bottom: 0.7rem;
+}
+
+.main-text p{
+    font-size: 1.5rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.servicos{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+.servicos h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
